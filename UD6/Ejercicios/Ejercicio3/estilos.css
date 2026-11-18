@@ -1,0 +1,32 @@
+h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+p {
+    color: black;
+}
+
+
+
+/* 
+    Cuestiones
+    ¿De qué color aparece el título?
+    El titulo saldra verde porque primero carga el css que lo pone azul y luego se sobreescribe con el verde de la etiqueta style en el html
+
+    ¿Qué tamaño tiene el título?
+    El titulo tendra el tamaño predeterminado del navegador porque se sobreescribe con la etiqueta style
+
+    ¿De qué color aparece el primer párrafo?
+    El primer parrafo aparece de color naranja definido en la etiquta style
+
+    ¿De qué color aparece el segundo párrafo?
+    El segundo parrafo aparece de color rojo porque lo tiene definido en un estilo en linea que sobreescribe a la etiqueta style
+
+    3B
+    Modifica el HTML para que el título aparezca en negro utilizando un estilo en línea.
+    
+    3C
+    Elimina los estilos internos. ¿Qué sucede con los colores? 
+    Que en caso de que esten definido en el css utilizaria esos estilos y si no utilizaria estilos en linea en caso de que tenga.
+*/
