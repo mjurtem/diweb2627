@@ -1,0 +1,17 @@
+/* Indica qué elementos selecciona cada regla: */
+
+main p { /*Todos los p dentro de main*/ }
+
+main > p { }
+
+h2 + p { /* El p siguiente al primer h2: <p>Noticia 1</p> */ }
+
+h2 ~ p { /* Todos los  p siguiente al primer h2: 
+        <p>Noticia 1</p>
+        <p class="importante">Noticia 2</p> 
+        <p>Noticia 3</p>
+        <p>Noticia 4</p>
+        */ 
+    }
+
+p.importante { /*Todos los p que tengan la clase importante: <p class="importante">Noticia 2</p> */}

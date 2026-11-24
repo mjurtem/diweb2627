@@ -1,0 +1,23 @@
+/* Todos los párrafos. */
+p {}
+
+/* El elemento con ID contenedor. */
+#contenedor {}
+
+/* Los elementos con clase destacado. */
+.destacado {}
+
+/* Los párrafos que tengan la clase texto. */
+p .texto {}
+
+/* Los párrafos descendientes de section. */
+section p {}
+
+/* El botón. */
+button {}
+
+/* El primer hijo de section. */
+section:first-child {}
+
+/* El párrafo que tenga simultáneamente las clases texto y destacado. */
+p .texto .destacado {}
